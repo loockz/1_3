@@ -329,6 +329,7 @@ body{
 
 @media (min-width: 992px) {
     .main-content__content-container {
+        height:auto;
         margin-left: 34px;
     }
     
