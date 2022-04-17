@@ -329,9 +329,7 @@ body{
 
 @media (min-width: 992px) {
     .main-content__content-container {
-        max-height: 32vh;
         margin-left: 34px;
-        margin-right: 55px;
     }
     
 }
