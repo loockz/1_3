@@ -293,13 +293,7 @@ body{
         flex-direction: row;
         margin-top: 32px;
     }
-
-    .main-content__content-container {
-        height: 32vh;
-    }
 }
-
-
 
 .main-content__content-container {
     
