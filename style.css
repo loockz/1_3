@@ -318,7 +318,7 @@ body{
 
 @media (min-width: 769px) {
     .main-content__content-container {
-        height: 32vh;
+        max-height: 32vh;
         margin-left: 24px;
         margin-right: 55px;
     }
@@ -329,7 +329,7 @@ body{
 
 @media (min-width: 992px) {
     .main-content__content-container {
-        height: 32vh;
+        max-height: 32vh;
         margin-left: 34px;
         margin-right: 55px;
     }
