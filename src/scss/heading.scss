@@ -1,0 +1,123 @@
+.page-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding-top: 24px;
+  vertical-align: middle;
+
+  @media (min-width: 1366px) {
+    padding-top: 42px;
+  }
+
+  &__text {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    padding-left: 16px;
+    font-size: 28px;
+    line-height: 40px;
+    vertical-align: middle;
+
+    @media (min-width: 768px) {
+      padding-left: 24px;
+    }
+
+    @media (min-width: 1366px) {
+      padding-left: 30px;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      border: 2px solid $border-dark;
+      border-radius: 0 5px 5px 0;
+      height:40px;
+      width: 4px;
+      left: 0;
+      top: 0;
+      background-color: $border-dark;
+    }
+  }
+}
+
+.category-menu {
+  display: flex;
+  font-size: 16px;
+  padding-left:16px;
+  padding-top: 24px;
+  overflow-x: auto;
+  scrollbar-width:none;
+
+  @media (min-width: 768px) {
+    padding-top: 32px;
+    padding-left: 24px;
+  }
+
+  @media (min-width: 1366px) {
+    padding-top: 8px;
+    padding-left: 32px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    }
+
+    &__item {
+      height: 40px;
+      white-space: nowrap;
+      padding-right: 16px;
+      padding-left: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration:none;
+      color: #7E7E82;
+      font-family: "TT Lakes", sans-serif;
+      font-weight: 500;
+      transition: 200ms;
+
+      &:hover {
+        color: #41F6D7;
+      }
+
+      &--active {
+        background-color: #fff;
+        border: 2px solid #B8FFEC;
+        border-radius: 6px;
+
+        &:hover {
+          color: #7E7E82;
+        }
+      }
+
+
+    }
+
+    &:after {
+      content: "";
+      position:absolute;
+      height: 40px;
+      width: 16px;
+      right:0;
+      background: linear-gradient(90deg, rgba(248,248,248,0) 0%, rgba(248,248,248,0.9415967070421919) 60%, rgba(248,248,248,1) 100%);
+
+      @media (min-width: 1366px) {
+        display:none;
+      }
+    }
+
+    &:before {
+      content: "";
+      position:absolute;
+      height: 40px;
+      width:16px;
+      left:0;
+      background: linear-gradient(270deg, rgba(248,248,248,0) 0%, rgba(248,248,248,0.9415967070421919) 60%, rgba(248,248,248,1) 100%);
+
+      @media (min-width: 1366px) {
+        display:none;
+      }
+    }
+
+    &::-webkit-scrollbar {
+    display: none;
+  }
+}

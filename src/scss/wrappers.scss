@@ -1,0 +1,27 @@
+.wrapper {
+  position: relative;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  font-family: "TT Lakes", sans-serif;
+  margin:0;
+  background-color: $main-bgc;
+
+  @media (min-width: 1366px) {
+    flex-direction: row;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 0;
+
+}
