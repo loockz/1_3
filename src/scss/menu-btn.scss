@@ -18,7 +18,7 @@
   }
 
   background-image: url(./img/burger.svg);
-  z-index: 11;
+
   &--menu {
     margin-left: 24px;
   }
@@ -27,7 +27,7 @@
     display: none;
   }
 
-  &--expanded {
+  &--close {
     background-image: url(./img/close.svg);
   }
 }

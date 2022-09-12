@@ -1,30 +1,20 @@
 export default function swiperInit() {
-  if (window.matchMedia("(max-width: 768px)").matches) {
-    var swiper = new Swiper(".swiper--items-list", {
-      slidesPerView: "auto",
-      centeredSlides: false,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
+  if (window.matchMedia('(max-width: 768px)').matches) {
+    let swiperList = [
+      '.swiper--items-list',
+      '.swiper--device-type',
+      '.swiper--prices'
+    ]
 
-    var swiper = new Swiper(".swiper--device-type", {
-      slidesPerView: "auto",
-      centeredSlides: false,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-
-    var swiper = new Swiper(".swiper--prices", {
-      slidesPerView: "auto",
-      centeredSlides: false,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
+    for (let i = 0; i < swiperList.length; i++) {
+      var swiper = new Swiper(swiperList[i], {
+        slidesPerView: 'auto',
+        centeredSlides: false,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        }
+      })
+    }
   }
 }

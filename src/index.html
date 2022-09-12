@@ -24,6 +24,7 @@
       <side class="sidebar">
       <div class="sidebar__restrict">
         <div class="sidebar__header">
+          <button href="#" class="burger burger--menu burger--close"></button>
           <a href="#" class="logo sidebar__logo"></a>
           <button class="search search--side"></button>
         </div>
@@ -45,10 +46,10 @@
           <button class="profile profile--side"></button>
         </div>
         <footer class="sidebar__footer">
-            <div class="contacts">
+            <address class="contacts">
               <a href="mailto:mail@cps.com" class="contacts__item contacts__item--email">mail@cps.com</a>
               <a href="tel:8 800 890 8900" class="contacts__item contacts__item--phone">8 800 890 8900</a>
-            </div>
+            </address>
             <div class="language-select">
               <a href="#" class="language-select__language language-select__language--active">RU</a>
               <a href="#" class="language-select__language">EN</a>
@@ -72,7 +73,7 @@
            <a href="#" class="modal__secondary-href">политикой конфиденциальности
            </a>
         </p>
-        <input type="submit" class="modal__submit" value="">
+        <button type="submit" class="modal__submit" value="">
       </form>
     </side>
 
@@ -87,7 +88,7 @@
            <a href="#" class="modal__secondary-href">политикой конфиденциальности
            </a>
         </p>
-        <input type="submit" class="modal__submit" value="">
+        <button type="submit" class="modal__submit" value="">
       </form>
     </side>
 
@@ -112,7 +113,7 @@
          </nav>
      <article class="article">
        <div class="article__text-container">
-         <div class="article__text">
+         <div class="article__text expandable">
            <p class="article__paragraph">
             Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
            </p>
@@ -130,7 +131,7 @@
           <h2 class="section-heading__text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h2>
         </div>
         <div class="swiper swiper--items-list">
-          <ul class="items-list items-list--device-brand swiper-wrapper">
+          <ul class="items-list items-list--device-brand swiper-wrapper expandable">
             <li class="card swiper-slide"><div class="card__logo card__logo--lenovo"></div><a href="#" class="card__go"></a></li>
             <li class="card swiper-slide"><div class="card__logo card__logo--samsung"></div><a href="#" class="card__go"></a></li>
             <li class="card swiper-slide"><div class="card__logo card__logo--apple"></div><a href="#" class="card__go"></a></li>
@@ -159,7 +160,7 @@
         </div>
 
         <div class="swiper swiper--device-type">
-        <ul class="items-list items-list--device-type swiper-wrapper">
+        <ul class="items-list items-list--device-type swiper-wrapper expandable">
 
           <li class="card card--devices swiper-slide"><a href="#" class="card__go card__go--devices">Ремонт ноутбуков</a></li>
           <li class="card card--devices swiper-slide"><a href="#" class="card__go card__go--devices">Ремонт планшетов</a></li>

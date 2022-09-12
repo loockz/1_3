@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "sass ./src/scss/style.scss ./src/style.css && webpack --mode development",
     "build": "sass ./src/scss/style.scss ./src/style.css && webpack --mode production",
+    "push": "git add -u && git push -u origin master",
     "deploy": "gh-pages -d dist"
   },
   "author": "",

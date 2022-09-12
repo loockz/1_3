@@ -54,3 +54,42 @@
     width: 220px;
   }
 }
+
+.tax-info {
+  margin: 0;
+  font-size: 14px;
+  padding: 16px 16px 16px 16px;
+  max-width: 442px;
+
+  @media (min-width: 768px) {
+    padding-left: 24px;
+  }
+
+  @media (min-width: 1366px) {
+    padding-left: 32px;
+  }
+}
+
+.request {
+  display: block;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "TT Lakes", sans-serif;
+  font-weight: 500;
+  width: 215px;
+  padding-left: 16px;
+
+  @media (min-width:768px) {
+    width: auto;
+    padding-left: 24px;
+  }
+
+  @media (min-width: 1366px) {
+    padding-left: 32px;
+  }
+
+  &__arrow {
+    vertical-align: middle;
+  }
+}

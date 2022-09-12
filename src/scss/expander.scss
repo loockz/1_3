@@ -75,3 +75,10 @@
     background-position: center;
   }
 }
+
+.expandable {
+  &--expanded {
+    height: auto;
+    max-height: fit-content;
+  }
+}
