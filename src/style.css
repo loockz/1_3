@@ -727,6 +727,7 @@ html {
   height: 100vh;
   max-height: 920px;
   overflow: scroll;
+  scrollbar-width: none;
 }
 .sidebar__restrict::-webkit-scrollbar {
   display: none;
@@ -1569,6 +1570,7 @@ html {
   background-color: white;
   z-index: 13;
   overflow: scroll;
+  scrollbar-width: none;
 }
 @media (min-width: 768px) {
   .modal {

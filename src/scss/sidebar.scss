@@ -28,6 +28,7 @@
     height: 100vh;
     max-height: 920px;
     overflow: scroll;
+    scrollbar-width:none;
 
     &::-webkit-scrollbar {
       display: none;
