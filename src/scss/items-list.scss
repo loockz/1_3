@@ -8,6 +8,105 @@
       height:auto;
     }
   }
+
+  &--brands {
+    &:after {
+      content: "";
+      position:absolute;
+      height: 72px;
+      width: 16px;
+      right:0;
+      top: 16px;
+      z-index: 100;
+
+      background: linear-gradient(90deg, rgba(248,248,248,0) 0%, rgba(248,248,248,0.9415967070421919) 60%, rgba(248,248,248,1) 100%);
+
+      @media (min-width: 768px) {
+        display:none;
+      }
+    }
+
+    &:before {
+      content: "";
+      position:absolute;
+      height: 72px;
+      width:16px;
+      left:0;
+      top: 16px;
+      z-index: 100;
+      background: linear-gradient(270deg, rgba(248,248,248,0) 0%, rgba(248,248,248,0.9415967070421919) 60%, rgba(248,248,248,1) 100%);
+
+      @media (min-width: 768px) {
+        display:none;
+      }
+    }
+  }
+
+  &--device-type {
+    &:after {
+      content: "";
+      position:absolute;
+      height: 160px;
+      width: 16px;
+      right:0;
+      top: 16px;
+      z-index: 100;
+
+      background: linear-gradient(90deg, rgba(248,248,248,0) 0%, rgba(248,248,248,0.9415967070421919) 60%, rgba(248,248,248,1) 100%);
+
+      @media (min-width: 768px) {
+        display:none;
+      }
+    }
+
+    &:before {
+      content: "";
+      position:absolute;
+      height: 160px;
+      width:16px;
+      left:0;
+      top: 16px;
+      z-index: 100;
+      background: linear-gradient(270deg, rgba(248,248,248,0) 0%, rgba(248,248,248,0.9415967070421919) 60%, rgba(248,248,248,1) 100%);
+
+      @media (min-width: 768px) {
+        display:none;
+      }
+    }
+  }
+
+  &--prices {
+    &:after {
+      content: "";
+      position:absolute;
+      height: 200px;
+      width: 16px;
+      right:0;
+      top: 16px;
+      z-index: 100;
+
+      background: linear-gradient(90deg, rgba(248,248,248,0) 0%, rgba(248,248,248,0.9415967070421919) 60%, rgba(248,248,248,1) 100%);
+
+      @media (min-width: 768px) {
+        display:none;
+      }
+    }
+
+    &:before {
+      content: "";
+      position:absolute;
+      height: 200px;
+      width:16px;
+      left:0;
+      top: 16px;
+      z-index: 100;
+      background: linear-gradient(270deg, rgba(248,248,248,0) 0%, rgba(248,248,248,0.9415967070421919) 60%, rgba(248,248,248,1) 100%);
+
+      @media (min-width: 768px) {
+        display:none;
+      }
+    }
+  }
 }
 
 .swiper-pagination {

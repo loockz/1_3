@@ -1,7 +1,7 @@
 export default function swiperInit() {
   if (window.matchMedia('(max-width: 768px)').matches) {
     let swiperList = [
-      '.swiper--items-list',
+      '.swiper--brands',
       '.swiper--device-type',
       '.swiper--prices'
     ]
